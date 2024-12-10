@@ -47,4 +47,21 @@ document.addEventListener('DOMContentLoaded', function () {
     modal.addEventListener('click', function () {
         modal.style.display = 'none';
     });
+
+    // Intersection Observer for fade-in-up animation
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in-up');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    const paragraphs = document.querySelectorAll('p');
+    paragraphs.forEach(paragraph => {
+        observer.observe(paragraph);
+    });
 });
