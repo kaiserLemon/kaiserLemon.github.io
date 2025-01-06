@@ -72,3 +72,11 @@ ul li a:hover {
     opacity: 0;
     animation: fadeInUp 1s forwards;
 }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 150px; /* Adjust the width as needed */
+}
