@@ -1,65 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Webpage</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Andy Torres – Machine Learning & Reinforcement Learning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Andy Torres – Machine Learning, Deep Reinforcement Learning, Multi-agent Systems.">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <img class="logo"
-      src="https://github.com/kaiserLemon/kaiserLemon.github.io/blob/main/Screenshot_20230105_143935_LinkedIn.jpg?raw=true"
-      alt="logo" style="width: 150px; height: auto;">
-    <h3>Hi, Thanks for stopping by!</h3>
-  </header>
   <main>
-    <h2>About Me</h2>
-    <p>I am Andy Torres, a M2 Computer Science student at Sorbonne University, with a strong passion for AI,
-      Optimization, Operation Research, Machine Learning and related fields. My primary objective is to prepare for a
-      thesis in these areas, and I have handpicked a collection of important links to help you better understand my
-      journey in Tech. 😊</p>
-    <br>
-    <h3>Useful Links</h3>
-    <ul>
-      <li><a
-          href="https://raw.githubusercontent.com/kaiserLemon/kaiserLemon.github.io/main/Screenshot 2025-03-15 003644.png">Curriculum
-          Vitæ</a></li>
-      <li><a href="https://www.linkedin.com/in/andy-torres-cs-student/">LinkedIn Account</a></li>
-      <li><a href="https://github.com/kaiserLemon">GitHub Repository</a></li>
-    </ul>
-    <h3>Certifications</h3>
-    <ul>
-      <li><a href="https://efset.org/cert/Lpe6K6">English Certification</a></li>
-      <li><a href="https://www.kaggle.com/learn/certification/andytorres2727/computer-vision">Computer Vision Course</a>
-      </li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/4494662934">Use Python Libraries for Data
-          Science</a></li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/5401496097">Learn Python Basics for Data
-          Analysis</a></li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/2264619625">Démarrez votre projet avec Python</a>
-      </li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/9341208962">Evaluez les performances d'un modèle de
-          machine learning</a></li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/6742293222">Initiez-vous au Deep Learning</a></li>
-      <li><a href="https://openclassrooms.com/en/course-certificates/1772970738">Initiez-vous à Python pour l'analyse de
-          données</a></li>
-    </ul>
-    <h3>Recommendation Letters</h3>
-    <ul>
-      <li><a
-          href="https://raw.githubusercontent.com/kaiserLemon/kaiserLemon.github.io/954cd7a5b87883a393b4fb7da17aa09cb20fcc14/lettre_de_recommandation_MAPSI_page-0001.jpg">Probabilistic
-          and Statistical Models and Algorithms for Computer Science</a></li>
-      <li><a
-          href="https://raw.githubusercontent.com/kaiserLemon/kaiserLemon.github.io/main/cover_letter_probabilities.png">Probabilities</a>
-      </li>
-    </ul>
-    <!-- <h3>Play My Game</h3>
-    <ul>
-      <li><a href="#game-page">Dark Mario Game</a></li>
-    </ul> -->
+    <!-- HERO -->
+    <section id="hero">
+      <h1>Andy Torres</h1>
+      <p class="tagline">Machine Learning & Reinforcement Learning Engineer</p>
+      <p class="intro">
+        I am a computer science graduate focusing on deep reinforcement learning, multi‑agent systems,
+        and optimization. I enjoy building scalable learning systems and tools for analyzing complex policies.
+      </p>
+      <p class="links">
+        <a href="mailto:youremail@example.com">Email</a> ·
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> ·
+        <a href="https://github.com/kaiserLemon" target="_blank">GitHub</a>
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- RESEARCH & INTERESTS -->
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Deep reinforcement learning and policy optimization.</li>
+        <li>Multi‑agent systems and decentralized decision making.</li>
+        <li>Computer vision and perception for autonomous systems.</li>
+        <li>Operations research and combinatorial optimization.</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article>
+        <h3>Machine Learning Engineer Intern – Safran Electronics & Defense</h3>
+        <p class="meta">March – August 2025 · Massy, France</p>
+        <ul>
+          <li>Developed decentralized multi‑agent reinforcement learning algorithms (DQN, PPO) for autonomous navigation and coordination of drone fleets in partially observable, GPS‑denied environments.</li>
+          <li>Designed a custom C++ simulation environment to support scalable training and evaluation.</li>
+          <li>Technologies: Python, PyTorch, Gymnasium, C++, SFML, Clipper, RLlib, Docker, CUDA, JAX, NumPy, Pybind, TensorBoard, Podman.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Machine Learning Research Intern – ISIR (Sorbonne University)</h3>
+        <p class="meta">January – May 2024 · Paris, France</p>
+        <ul>
+          <li>Built visualization tools to evaluate deep reinforcement learning policies and their performance over time.</li>
+          <li>Developed a visualization tool to analyze policy quality in subspaces, with histograms tracking multiple metrics.</li>
+          <li>Technologies: Gymnasium (Cartpole, Swimmer, MuJoCo), PyTorch, Plotly, Python.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Machine Learning Research Intern – LS2N</h3>
+        <p class="meta">April – June 2023 · Nantes, France</p>
+        <ul>
+          <li>Implemented a deep reinforcement learning algorithm to disprove graph conjectures from a research paper.</li>
+          <li>Reproduced and optimized experiments, improving execution time while preserving performance.</li>
+          <li>Technologies: TensorFlow, Keras, Python.</li>
+        </ul>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <p class="note">
+        More projects and source code are available on my
+        <a href="https://github.com/kaiserLemon" target="_blank">GitHub profile</a>.
+      </p>
+
+      <!-- EXAMPLE PROJECT BLOCKS: adapt to your actual repositories -->
+      <article>
+        <h3><a href="https://github.com/kaiserLemon/REPO_NAME_1" target="_blank">Multi‑Agent Drone Navigation</a></h3>
+        <p class="meta">Python · PyTorch · Gymnasium · C++</p>
+        <p>
+          Implementation of decentralized MARL algorithms for cooperative drone navigation in partially observable environments,
+          with a custom C++ simulation backend and Python training pipeline.
+        </p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/kaiserLemon/REPO_NAME_2" target="_blank">RL Policy Visualization Toolkit</a></h3>
+        <p class="meta">Python · PyTorch · Plotly</p>
+        <p>
+          Toolkit for visualizing deep RL policies, including subspace analysis, trajectory plots, and histogram‑based metrics
+          for multiple standard control benchmarks.
+        </p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/kaiserLemon/REPO_NAME_3" target="_blank">Graph Conjecture Disprover</a></h3>
+        <p class="meta">Python · TensorFlow · Keras</p>
+        <p>
+          Deep RL approach for exploring graph spaces and producing counter‑examples to conjectures from a research paper,
+          with efficient training and evaluation scripts.
+        </p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+
+      <article>
+        <h3>Doctor of Philosophy, Computer Science</h3>
+        <p class="meta">CEA & Institut Polytechnique de Paris · 2026 – 2029 (expected)</p>
+        <p>
+          Research focused on machine learning, deep reinforcement learning, and multi‑agent systems.
+        </p>
+      </article>
+
+      <article>
+        <h3>Master’s Degree, Computer Science</h3>
+        <p class="meta">Sorbonne University, Paris · 2023 – 2025</p>
+        <p>
+          Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Operations Research.
+        </p>
+      </article>
+
+      <article>
+        <h3>Bachelor’s Degree, Computer Science</h3>
+        <p class="meta">Nantes University · 2020 – 2023</p>
+        <p>
+          Relevant coursework: Linear Algebra, Probability & Statistics, Optimization, Algorithms.
+        </p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <h3>Technical</h3>
+      <p>
+        Python, C/C++, Julia, Java, SQL/NoSQL, TensorFlow, PyTorch, CUDA, TensorBoard, RLlib,
+        Docker, Git, Scikit‑learn, OpenCV.
+      </p>
+      <h3>General</h3>
+      <p>
+        Multi‑agent systems, machine learning, deep learning, reinforcement learning, computer vision,
+        operations research, optimization, software development, graph theory, database theory.
+      </p>
+      <h3>Languages</h3>
+      <p>
+        French (native), English (B2‑level, advanced).
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Feel free to reach out for collaborations, research projects, or internships.
+      </p>
+      <p>
+        Email: <a href="mailto:youremail@example.com">youremail@example.com</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Andy Torres</p>
+    </footer>
   </main>
 
-  
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
